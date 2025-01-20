@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
     
 function validNumber(){
     if (guess > numero) {
-        return alert("O numero aleatorio é menor");
+        return alert("The Number Is Lower");
         
     }else if (guess < numero){
-        return alert("O numero aleatório é maior");
+        return alert("The Number Is Higher");
             
     }else if(guess == numero){
-        return alert("Parabéns você acertou!");
+        return alert("Congratulations You Win!");
     }
         
 }

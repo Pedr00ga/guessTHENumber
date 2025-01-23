@@ -23,7 +23,7 @@ function validNumber(){
         
 }
 
-    function randomNumber() {
+function randomNumber() {
         return Math.floor(Math.random() * 100);
     }
 
